@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choisir l'opération :"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/rg_dist_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp">
+
+        <RadioButton
+            android:id="@+id/rb_km_to_miles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:buttonTint="@color/secondaryColor"
+            android:textColor="@color/white"
+            android:text="KM to Miles" />
+
+        <RadioButton
+            android:id="@+id/rb_miles_to_km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/secondaryColor"
+            android:textColor="@color/white"
+            android:text="Miles to KM" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valeur à convertir :"
+            android:textColor="@color/textColorSecondary"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_dist_input_field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:hint="Saisir la valeur"
+            android:textColor="@color/white"
+            android:textColorHint="#CCCCCC"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:backgroundTint="@color/secondaryColor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_convert_dist_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D3D3D3"
+            android:text="OK"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_dist_result_output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:text="________________"
+            android:textColor="@color/textColorSecondary"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

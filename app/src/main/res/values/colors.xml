@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color> 
+    <color name="primaryColor">#673AB7</color> <!-- Deep Purple -->
+    <color name="primaryVariant">#512DA8</color> <!-- Darker Purple -->
+    <color name="secondaryColor">#FF4081</color> <!-- Pink Accent -->
+    <color name="backgroundColor">#673AB7</color> <!-- Mauve comme l'entête -->
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="textColorPrimary">#FFFFFF</color> <!-- Blanc pour visibilité sur fond sombre -->
+    <color name="textColorSecondary">#FFFFFF</color> <!-- Blanc pour visibilité sur fond sombre -->
+</resources>
