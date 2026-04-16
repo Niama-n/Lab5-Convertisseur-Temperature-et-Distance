@@ -6,6 +6,12 @@ Vous pouvez visualiser le test de l'application ici :
 ---
 
 
+https://github.com/user-attachments/assets/a6205ee4-a8bb-4f77-9125-e02d769b4e82
+
+
+
+
+
 ## 📝 Description
 Cette application Android permet de convertir des valeurs de température et de distance à l’aide de deux onglets (Fragments).  
 Elle offre une interface simple pour effectuer des conversions rapides entre différentes unités.
